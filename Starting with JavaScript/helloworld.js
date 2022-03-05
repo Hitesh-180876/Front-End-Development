@@ -12,3 +12,6 @@ a = null;
 console.log(typeof a);
 console.log(typeof NaN);
 console.log(typeof Infinity);
+var a =10;
+var b= 20;
+console.log(a+b);
