@@ -1,9 +1,10 @@
-
 #container{
     height: auto;
     width: 75vh;
     background-color: yellow;
     display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
     /* default is row direction */
     /* flext direction - column makes it in column */
     /* 
@@ -13,6 +14,8 @@
   /*  flex-direction: row;  */
     flex-wrap: wrap;
     flex-wrap: wrap-reverse;
+    /* bring all in the left ==>  justify-content: flex-end; */
+    justify-content: space-around;
 
     /* rap reverse it in bottom to top direction */
 }
@@ -22,10 +25,11 @@
     width: 200px;
 }
 #div-1{
-    
+    margin-bottom: 5px;
     background-color: cyan;
 }
 #div-2{
+    margin-bottom: 5px;
     background-color: red;
 
     /* default value of all these element is 0 but
@@ -34,13 +38,14 @@
 
 }
 #div-3{
-    
+    margin-bottom: 5px;
     background-color: gray;
 }
 #div-4{
-   
+   margin-bottom: 5px;
     background-color:darkred;
 }
 #div-5{
+    margin-bottom: 5px;
     background-color: purple;
 }
